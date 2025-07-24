@@ -1,0 +1,13 @@
+'use strict';
+
+module.exports = {
+  default: {
+    enabled: true,
+    autoConvert: true,
+    qualityWebp: 80,
+    qualityAvif: 50,
+    formatsToConvert: ['jpeg', 'png'],
+    convertTo: ['webp', 'avif'],
+  },
+  validator() {},
+}; 

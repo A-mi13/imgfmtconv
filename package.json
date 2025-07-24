@@ -1,0 +1,52 @@
+{
+  "name": "strapi-plugin-imgfmtconv",
+  "version": "1.0.0",
+  "description": "Universal image format converter for Strapi (WebP/AVIF, bulk, quality, fallback)",
+  "main": "strapi-server.js",
+  "keywords": [
+    "strapi",
+    "plugin",
+    "image",
+    "converter",
+    "webp",
+    "avif",
+    "optimization",
+    "bulk-convert"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/A-mi13/imgfmtconv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/A-mi13/imgfmtconv/issues"
+  },
+  "homepage": "https://github.com/A-mi13/imgfmtconv#readme",
+  "author": "A-mi13",
+  "license": "MIT",
+  "strapi": {
+    "name": "imgfmtconv",
+    "displayName": "Image Format Converter",
+    "description": "Universal image format converter for Strapi (WebP/AVIF, bulk, quality, fallback)",
+    "kind": "plugin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "strapi-server.js",
+    "strapi-admin.js",
+    "admin-page.jsx",
+    "server/**/*",
+    "config/**/*"
+  ],
+  "dependencies": {
+    "sharp": "^0.32.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0"
+  }
+} 
