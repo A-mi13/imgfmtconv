@@ -31,7 +31,7 @@ npm install github:A-mi13/imgfmtconv
 
 ## Configuration
 
-The plugin settings are stored in `config/settings.json` and automatically loaded when Strapi starts.
+The plugin comes with a default `config/settings.json` file included in the repository. You can edit this file to set up your preferred options before starting Strapi.
 
 ### Available Settings
 
@@ -46,16 +46,20 @@ The plugin settings are stored in `config/settings.json` and automatically loade
 
 ### Example Configuration
 
+The default file looks like this:
+
 ```json
 {
   "enabled": true,
   "autoConvert": true,
-  "qualityWebp": 85,
-  "qualityAvif": 75,
-  "formatsToConvert": ["jpeg", "png", "jpg"],
+  "qualityWebp": 80,
+  "qualityAvif": 50,
+  "formatsToConvert": ["jpeg", "png"],
   "convertTo": ["webp", "avif"]
 }
 ```
+
+You can edit `config/settings.json` directly or via the admin panel.
 
 ## Usage
 

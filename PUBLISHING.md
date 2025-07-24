@@ -162,4 +162,10 @@ npm unpublish strapi-plugin-imgfmtconv@1.0.0
 
 # Update npm
 npm install -g npm@latest
-``` 
+```
+
+## Configuration
+
+- The plugin includes a default `config/settings.json` file in the repository.
+- You can edit this file before publishing or after installation to set your preferred options.
+- This file is not ignored by git and will be available after cloning the repository. 

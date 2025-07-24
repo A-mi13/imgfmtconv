@@ -51,3 +51,8 @@ npm publish
 2. Publish to npm
 3. Create GitHub release
 4. Monitor issues and feedback 
+
+## Configuration
+
+- Default config file: `config/settings.json` is included in the repo.
+- Edit this file to set your options before running Strapi. 
