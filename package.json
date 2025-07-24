@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-imgfmtconv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal image format converter for Strapi (WebP/AVIF, bulk, quality, fallback)",
   "main": "strapi-server.js",
   "keywords": [
