@@ -154,4 +154,4 @@ Thumbs.db
 .strapi-updater.json.lock
 
 # Plugin specific
-config/settings.json 
+# config/settings.json 

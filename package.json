@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/A-mi13/imgfmtconv.git"
+    "url": "git+https://github.com/A-mi13/imgfmtconv.git"
   },
   "bugs": {
     "url": "https://github.com/A-mi13/imgfmtconv/issues"
@@ -49,4 +49,4 @@
     "node": ">=18.0.0",
     "npm": ">=6.0.0"
   }
-} 
+}
